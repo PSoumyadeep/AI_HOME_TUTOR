@@ -4,7 +4,7 @@ if (!isset($_SESSION['user_id'])) { http_response_code(401); echo json_encode(['
 
 header('Content-Type: application/json');
 
-$YOUTUBE_API_KEY = 'AIzaSyBBmWv9tEqX6AiaJQuYH20-O0hz8VRXW9c'; // same key as fetch_youtube_videos.php
+$YOUTUBE_API_KEY = ''; // same key as fetch_youtube_videos.php
 
 $query = trim($_GET['q'] ?? '');
 if ($query === '') { echo json_encode(['error' => 'Empty query']); exit; }
