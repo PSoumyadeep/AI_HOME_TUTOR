@@ -216,8 +216,8 @@ main { position:relative; z-index:1; max-width:860px; margin:0 auto; padding:40p
 
 <script src="script.js"></script>
 <script>
-const API_KEY  = "AIzaSyDk4m9-_J-xUr176Yo1ZVAJOVZxEjGKp8M";
-const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=${API_KEY}`;
+const API_KEY  = "";
+const GEMINI_URL = ``;
 
 const SUBJECTS = {
   6:["Mathematics","Science","English","Social Science","Computer Science"],
